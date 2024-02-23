@@ -1,0 +1,160 @@
+[
+  {
+    "Label": "Aspetti della vita quotidiana Anno 2021",
+    "Tooltip": "",
+    "Fields": [
+      {
+        "Id": "1",
+        "Items": [
+          {
+            "Key": "provincia",
+            "Label": "Provincia",
+            "Tooltip": "Provincia",
+            "Widget": "input",
+            "Placeholder": "Inserisci una provincia",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": null,
+              "MaxLength": null,
+              "Required": true,
+              "RequiredMessage": "Inserisci una provincia"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserire codice o nome",
+            "HasFeedback": true
+          },
+          {
+            "Key": "comune",
+            "Label": "Comune",
+            "Tooltip": "Comune",
+            "Widget": "input",
+            "Placeholder": "Inserisci una comune",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": null,
+              "MaxLength": null,
+              "Required": true,
+              "RequiredMessage": "Inserisci un comune"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserire codice o nome",
+            "HasFeedback": true
+          },
+          {
+            "Key": "sezioneCensimento",
+            "Label": "Sezione di censimento",
+            "Tooltip": "Sezione di censimento",
+            "Widget": "input",
+            "Placeholder": "Inserisci la sezione di censimento",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": null,
+              "MaxLength": null,
+              "Required": true,
+              "RequiredMessage": "Inserisci la sezione di censimento"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserisci la sezione di censimento",
+            "HasFeedback": true
+          }
+        ]
+      },
+      {
+        "Id": "2",
+        "Items": [
+          {
+            "Key": "numProgressivo",
+            "Label": "Numero progressivo della famiglia intervistata",
+            "Tooltip": "Numero progressivo della famiglia intervistata",
+            "Widget": "input",
+            "Placeholder": "Inserisci il numero progressivo",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": 4,
+              "MaxLength": 4,
+              "Required": true,
+              "RequiredMessage": "Inserisci il numero progressivo della famiglia intervistata"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserisci il numero progressivo della famiglia intervistata",
+            "HasFeedback": true
+          }
+        ]
+      },
+      {
+        "Id": "3",
+        "Items": [
+          {
+            "Key": "numOrdine",
+            "Label": "Numero d'ordine della famiglia nell’elenco Mod. ISTAT/IMF/2 Elenco",
+            "Tooltip": "Numero d'ordine della famiglia nell’elenco  Mod. ISTAT/IMF/2 Elenco",
+            "Widget": "input",
+            "Placeholder": "Inserisci il numero d'ordine",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": 4,
+              "MaxLength": 4,
+              "Required": true,
+              "RequiredMessage": "Inserisci il numero d'ordine della famiglia nell’elenco  Mod. ISTAT/IMF/2 Elenco"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserisci il numero d'ordine della famiglia nell’elenco  Mod. ISTAT/IMF/2 Elenco",
+            "HasFeedback": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Label": "PER TUTTI",
+    "Tooltip": "",
+    "Fields": [
+      {
+        "Id": "",
+        "Items": [
+          {
+            "Key": "numQuestionario",
+            "Label": "Questionario per autocompilazione n.",
+            "Tooltip": "Questionario per autocompilazione n.",
+            "Widget": "input",
+            "Placeholder": "Inserisci il numero di questionario",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": 5,
+              "MaxLength": 5,
+              "Required": true,
+              "RequiredMessage": "Inserisci il numero di questionario"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserisci il numero di questionario",
+            "HasFeedback": true
+          },
+          {
+            "Key": "numComponente",
+            "Label": "Componente n.",
+            "Tooltip": "Componente n.",
+            "Widget": "input",
+            "Placeholder": "Inserisci il numero componente",
+            "InitialValue": null,
+            "Rules": {
+              "MinLength": 2,
+              "MaxLength": 2,
+              "Required": true,
+              "RequiredMessage": "Inserisci il numero componente"
+            },
+            "Url": null,
+            "Options": null,
+            "Extra": "Inserisci il numero componente",
+            "HasFeedback": true
+          }
+        ]
+      }
+    ]
+  }
+]

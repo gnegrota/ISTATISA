@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d7aae25c-cf53-4974-bea4-8ad0e89af85b",
+    "parentId": "00000000-0000-0000-0000-000000000000",
+    "titolo": "Home",
+    "url": "/",
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 0
+  },
+  {
+    "id": "304483e0-f167-41c2-922d-44300c72dde9",
+    "parentId": "00000000-0000-0000-0000-000000000000",
+    "titolo": "Amministrazione",
+    "url": null,
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 1
+  },
+  {
+    "id": "9e88bcb3-6edd-416f-b9eb-99f7ab387e59",
+    "parentId": "00000000-0000-0000-0000-000000000000",
+    "titolo": "Questionari",
+    "url": null,
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 2
+  },
+  {
+    "id": "6ddb6f96-cb4b-49d2-8beb-adeb61bfb440",
+    "parentId": "304483e0-f167-41c2-922d-44300c72dde9",
+    "titolo": "Gestione Utenti",
+    "url": "/GestioneUtenti",
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 1
+  },
+  {
+    "id": "3b8b586d-cae6-4caa-8b3c-a2d7706fa414",
+    "parentId": "9e88bcb3-6edd-416f-b9eb-99f7ab387e59",
+    "titolo": "Upload File",
+    "url": "/UploadQuestionari",
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 1
+  },
+  {
+    "id": "2beaac15-17c6-44cc-84e0-0a0fe8150f42",
+    "parentId": "9e88bcb3-6edd-416f-b9eb-99f7ab387e59",
+    "titolo": "Gestione",
+    "url": "/InserimentoQuestionario",
+    "isVisible": true,
+    "linkNewWindow": false,
+    "menuOrder": 2
+  }
+]
